@@ -530,7 +530,7 @@ int main() {
             do{
                 printf("combien y a t il de joueurs?:\n");
                 scanf("%d", &nbjoueur);
-            } while (nbjoueur!= 4 || nbjoueur!= 2 || nbjoueur!=3);
+            } while (nbjoueur<2 || nbjoueur>4);
 
             for (i = 0; i < nbjoueur; i++) {
                 tableauDeJoueur[i] = infojoueur();
